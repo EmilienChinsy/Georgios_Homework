@@ -44,6 +44,9 @@ void merge(vector<Dishes> &dishes, int left, int mid, int right, int sortValue) 
                 }
                 ++k;
             }
+        default:
+            cout << "I cannot sort by something that doesn't exist, please try again." << endl;
+            break;
 
     }
 
@@ -71,7 +74,7 @@ void mergeSort(vector<Dishes> &dishes, int left, int right, int sortValue) {
 }
 
 
-// Main sorting function to choose the attribute
+// Function to let the user choose the sorting parameter
 void sortDishes(vector<Dishes> &dishes) {
     int userInput;
     cout << "The dishes will be sorting from lowest to highest" << endl;
@@ -83,19 +86,16 @@ void sortDishes(vector<Dishes> &dishes) {
     switch (userInput) {
         case 1:
             mergeSort(dishes, 0, dishes.size()-1, userInput);
-            cout << "Dishes sorted by Rating successfully!\n";
+            cout << "Dishes sorted by Rating successfully!" << endl;
             break;
         case 2:
             mergeSort(dishes, 0, dishes.size()-1, userInput);
-            cout << "Dishes sorted by Healthiness successfully!\n";
+            cout << "Dishes sorted by Healthiness successfully!" << endl;
             break;
         default:
-            cout << "Invalid choice.\n";
+            cout << "Invalid choice." << endl;
             return;
     }
-
-    // Debugging message to confirm we are back to the main loop
-    cout << "Returning to main menu...\n";
 }
 
 // This function allows the user to add new dishes to the vector
@@ -130,7 +130,7 @@ void retrieveDish(vector<Dishes> &dishes) {
             return;
         }
     }
-    cout << "Dish not found.\n";
+    cout << "Dish not found." << endl;
 }
 
 // This function updates a dishes's information in the vector

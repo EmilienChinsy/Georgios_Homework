@@ -34,6 +34,7 @@ int main(){
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
             cout << "Invalid input, please enter a number corresponding an action." << endl;
         } else {
+            // will check the user input and call a different function depending on what it is
             switch (userInput) {
                 case 1:
                     for (auto &currentDish : dishes)    

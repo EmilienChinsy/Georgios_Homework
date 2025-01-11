@@ -25,3 +25,10 @@ To run the program:
 2. Locate and navigate to the location of the now local repository cd Georgios_Homework
 3. Compile the program using `g++ main.cpp -o main.o`
 4. execute the program using ./main.o
+
+---
+
+## Special note
+
+I did not do this project completely alone as my time for the weekend was extremely limited.
+I used existing bits of code and used chatGPT to help me find existing C++ function that I needed such as .fail(), .clear() and .ignore() for example
