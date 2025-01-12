@@ -13,13 +13,13 @@ int main(){
     // cout outputs text in the console
     cout << "Welcome to your very own dish storing database!" << endl;
     cout << "This database exists to allow you to store your favorite dishes, a link to their recipes, how healthy they are on a scale from 1 to 5 and a rating from 1 to 5 where 1 is unhealthy/terrible and five is very healthy/amazing"<< endl;
-    cout << "Important info: Never put spaces in your inputs, for example inputs Pulled_pork instead of Pulled pork" << endl;
+    cout << "Important info: Never put spaces in your inputs, for example input Pulled_pork instead of Pulled pork" << endl;
     cout << "For now, here are the actions you can take:" << endl;
     cout << "1. Display all dishes  " << endl;
     cout << "2. Add a dish  " << endl;
-    cout << "3. Display a dishes using it's name" << endl;
-    cout << "4. Edit a dish using it's name" << endl;
-    cout << "5. Remove a dish using it's name" << endl;
+    cout << "3. Display a dish using its name" << endl;
+    cout << "4. Edit a dish using its name" << endl;
+    cout << "5. Remove a dish using its name" << endl;
     cout << "6. Sort the dishes" << endl;
     cout << "7. End the program" << endl;
     cout << "Type the number of the action you want to take in the console" << endl;

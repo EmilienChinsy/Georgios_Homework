@@ -2,11 +2,6 @@
 #include <string>
 #include <vector>
 #include "Dishes.hpp"
-
-#include <iostream>
-#include <string>
-#include <vector>
-
 // Merge sort implementation for sorting Dishes the inputed value
 void merge(vector<Dishes> &dishes, int left, int mid, int right, int sortValue) {
     int n1 = mid - left + 1;

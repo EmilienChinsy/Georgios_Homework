@@ -34,7 +34,7 @@ class Dishes {
             return amount_of_Dishes;
         }
         // the other functions will be defined outside of the class itslef for better readability
-        // they are defined in the same file, from line 43 onward.
+        // they are defined in the same file, from line 49 onward.
         string getName();
         string getLink();
         int getHealthValue();
